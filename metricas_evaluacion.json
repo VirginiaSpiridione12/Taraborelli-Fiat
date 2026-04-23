@@ -1,0 +1,221 @@
+{
+  "nombre_campana": "Taraborelli FIAT - Hot Sale Mayo 2026",
+  "fecha_creacion": "2026-04-23",
+
+  "dimensiones_evaluacion": {
+    "engagement": {
+      "nombre": "Engagement & Alcance",
+      "peso": 0.25,
+      "metricas": {
+        "engagement_rate": {
+          "descripcion": "Porcentaje de interacción (likes + comentarios / seguidores)",
+          "escala": "0-100",
+          "clasificacion": {
+            ">8%": 95,
+            "5-8%": 80,
+            "3-5%": 60,
+            "1-3%": 35,
+            "<1%": 10
+          }
+        },
+        "crecimiento_seguidores": {
+          "descripcion": "Tasa mensual de crecimiento de seguidores",
+          "escala": "0-100",
+          "esperado": "Natural (2-5% mensual)"
+        },
+        "consistencia_engagement": {
+          "descripcion": "Qué tan uniforme es el engagement entre posts",
+          "escala": "0-100",
+          "notas": "Alto = engagement genuino, Bajo = posibles bots"
+        }
+      }
+    },
+
+    "audiencia_relevante": {
+      "nombre": "Alineación de Audiencia",
+      "peso": 0.20,
+      "metricas": {
+        "ubicacion_geografica": {
+          "descripcion": "% de audiencia en mercado objetivo (Argentina/LATAM)",
+          "escala": "0-100",
+          "objetivo": ">70%"
+        },
+        "rango_edad": {
+          "descripcion": "25-45 años (edad compra autos)",
+          "escala": "0-100",
+          "objetivo": ">65%"
+        },
+        "interes_ofertas_descuentos": {
+          "descripcion": "Audiencia activamente busca promociones",
+          "escala": "0-100",
+          "indicador": "Engagement en posts de ofertas"
+        },
+        "poder_adquisitivo": {
+          "descripcion": "Capacidad económica para auto (medio-alto)",
+          "escala": "0-100",
+          "notas": "Evaluar por tipo de contenido, marcas mencionadas"
+        }
+      }
+    },
+
+    "calidad_contenido": {
+      "nombre": "Calidad de Contenido",
+      "peso": 0.20,
+      "metricas": {
+        "produccion": {
+          "descripcion": "Nivel de profesionalismo",
+          "escala": "0-100",
+          "categorias": [
+            "Profesional: estudio, edición, audio",
+            "Semi-profesional: buen editing, lighting",
+            "Casual: iPhone, sin edición profunda"
+          ]
+        },
+        "autenticidad": {
+          "descripcion": "Qué tan genuina parece la recomendación",
+          "escala": "0-100",
+          "indicadores_negativos": [
+            "Posts muy vendedores sin value",
+            "Sin explicación personal",
+            "Copy-paste de otros"
+          ]
+        },
+        "storytelling": {
+          "descripcion": "Capacidad de narrar de forma atractiva",
+          "escala": "0-100",
+          "evaluacion": "¿Enganche emocional? ¿Problema-solución?"
+        },
+        "frecuencia": {
+          "descripcion": "Consistencia de publicación",
+          "escala": "0-100",
+          "esperado": "3-5 posts/semana"
+        }
+      }
+    },
+
+    "autenticidad": {
+      "nombre": "Autenticidad & Riesgo Reputacional",
+      "peso": 0.15,
+      "metricas": {
+        "followers_reales": {
+          "descripcion": "% estimado de seguidores activos reales",
+          "escala": "0-100",
+          "herramientas": [
+            "Revisar patrones de comentarios",
+            "Analizar distribución geografica",
+            "Verificar si comentarios son personalizados"
+          ]
+        },
+        "divulgacion_patrocinios": {
+          "descripcion": "Marca claramente contenido patrocinado",
+          "escala": "0-100",
+          "cumplimiento": "Crítico para regulación"
+        },
+        "historial_controversias": {
+          "descripcion": "Ausencia de controversias o conflictos",
+          "escala": "0-100",
+          "evaluacion": "Buscar en redes y prensa"
+        }
+      }
+    },
+
+    "hot_sale_potential": {
+      "nombre": "Potencial para Hot Sale Mayo",
+      "peso": 0.20,
+      "metricas": {
+        "experiencia_promociones": {
+          "descripcion": "Ha promocionado ofertas/descuentos antes",
+          "escala": "0-100",
+          "evaluacion": "¿Qué tan efectivamente?"
+        },
+        "disponibilidad_mayo": {
+          "descripcion": "Estará activo publicando en mayo",
+          "escala": "0-100",
+          "verificacion": "Historial de mayo previos"
+        },
+        "afinidad_automotriz": {
+          "descripcion": "Ha hablado de autos o ha promocionado marcas auto",
+          "escala": "0-100",
+          "notas": "No crítico pero suma valor"
+        },
+        "ctr_estimado": {
+          "descripcion": "Click-through rate esperado",
+          "escala": "0-100",
+          "base": "Engagement rate * factor conversion (2-3x)"
+        }
+      }
+    }
+  },
+
+  "puntajes_referencia": {
+    "90_100": {
+      "clasificacion": "EXCELENTE",
+      "recomendacion": "Proceder inmediatamente",
+      "prioridad": "ALTA",
+      "proximos_pasos": ["Contactar", "Propuesta", "Contrato"]
+    },
+    "75_89": {
+      "clasificacion": "MUY BUENO",
+      "recomendacion": "Recomendado con confianza",
+      "prioridad": "ALTA",
+      "proximos_pasos": ["Contactar", "Evaluar alternativas en paralelo"]
+    },
+    "60_74": {
+      "clasificacion": "BUENO",
+      "recomendacion": "Viable con condiciones",
+      "prioridad": "MEDIA",
+      "proximos_pasos": ["Considerar alternativas", "Contactar si no hay mejores"]
+    },
+    "45_59": {
+      "clasificacion": "ACEPTABLE",
+      "recomendacion": "Último recurso",
+      "prioridad": "BAJA",
+      "proximos_pasos": ["Buscar otras opciones primero"]
+    },
+    "0_44": {
+      "clasificacion": "NO RECOMENDADO",
+      "recomendacion": "Rechazar",
+      "prioridad": "NULA",
+      "proximos_pasos": ["Descartar", "Buscar candidatos alternativos"]
+    }
+  },
+
+  "criterios_rechazo_automatico": [
+    "Engagement rate < 0.5%",
+    "Followers >= 80% parecen bots (verifiación manual)",
+    "Historial de estafas o content farm",
+    "NO marca contenido patrocinado (violación regulatoria)",
+    "Controversias o posts ofensivos recientes",
+    "Audiencia geografica < 30% en mercado objetivo"
+  ],
+
+  "preguntas_investigacion_clave": [
+    "¿Cuál es el engagement rate real?",
+    "¿La audiencia es genuina y activa?",
+    "¿Ha promocionado marcas similares?",
+    "¿Qué tan profesional es el contenido?",
+    "¿Marca contenido patrocinado?",
+    "¿Tiene experiencia con conversiones/ventas?",
+    "¿Estará disponible en mayo?",
+    "¿Cuál es su tarifa estimada?"
+  ],
+
+  "estimadores_roi": {
+    "promedio_seguidores_micro": 15000,
+    "engagement_rate_esperado": "3-5%",
+    "click_through_rate": "2-4%",
+    "conversion_rate_esperada": "0.5-1.5%",
+    "costo_estimado_colaboracion": {
+      "micro_influencer": "$300-1000 USD",
+      "moneda_local": "ARS $50,000-150,000"
+    },
+    "alcance_estimado_por_post": {
+      "calculo": "seguidores * engagement_rate",
+      "ejemplo": "15000 * 0.04 = 600 personas impactadas"
+    },
+    "conversiones_estimadas": {
+      "calculo": "alcance * ctr * conversion_rate",
+      "ejemplo": "600 * 0.03 * 0.01 = 0.18 conversiones = ~1 lead"
+    }
+  }
+}
